@@ -1,0 +1,6 @@
+# MySQL
+DB_HOST=db
+DB_PORT=3306
+DB_USER=root
+MYSQL_DATABASE=lab_research
+MYSQL_ROOT_PASSWORD=root

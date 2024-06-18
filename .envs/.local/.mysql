@@ -1,6 +1,8 @@
 # MySQL
-DB_HOST=db
+DB_HOST=db_flask
 DB_PORT=3306
 DB_USER=root
 MYSQL_DATABASE=cosmos_transfer_flask
 MYSQL_ROOT_PASSWORD=root
+FLASK_ENV=development
+FLASK_APP=run.py

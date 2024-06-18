@@ -1,10 +1,10 @@
 import os
 
 basedir = os.path.abspath(os.path.dirname(__file__))
-
+FLASK_ENV = os.environ.get('FLASK_ENV')
 
 class Config:
-    SECRET_KEY = os.environ.get('SECRET_KEY') or 'you-will-never-guess'
+    SECRET_KEY = os.environ.get('SECRET_KEY') or 'O8HBs553>.A983)'
     DB_HOST = os.environ.get('DB_HOST')
     DB_PORT = os.environ.get('DB_PORT')
     DB_USER = os.environ.get('DB_USER')
